@@ -21,3 +21,10 @@ jobs:
         run: |
           x = 12
           print(x+x)
+
+  segundo-job:
+    name: "segundo job, instala ambiente nodeJS"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Verificação da versão mais recente"
+        run: node --version

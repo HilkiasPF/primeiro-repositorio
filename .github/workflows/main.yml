@@ -29,10 +29,10 @@ jobs:
       - name: "Verificação da versão"
         run: node --version
 
-      - name: "Atualizar v20.13.1 do node"
-      - uses: actions/setup-node@v4 
-        with: 
+      - name: "Esqueci de salvar"
+      - uses: actions/setup-node@v4
+        witch:
           node-version: "20.13.1"
-      
-      - name: 'verificar versão node'
-        run: node --version
+
+      - name: 'Versão node'
+        run: node --version  

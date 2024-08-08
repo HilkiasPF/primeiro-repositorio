@@ -15,3 +15,9 @@ jobs:
         run: |
           echo " Posso usar | para escrever na linha de baixo"
           echo "Tá indo"
+
+      - name: "python"
+        shell: python
+        run: |
+          x = 12
+          print(x+x)

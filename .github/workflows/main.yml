@@ -1,0 +1,17 @@
+name: Pipeline01
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+jobs: 
+  primeiro-job:
+    name: "primeiro job"
+    runs-on: unbutu-lastest
+    steps:
+      - name: "Primeira action"
+        run: echo "Hello world"
+
+      - name: "Segunda action"
+        run: |
+          echo " Posso usar | para escrever na linha de baixo"
+          echo "Tá indo"
